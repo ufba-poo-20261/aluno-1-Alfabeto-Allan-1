@@ -23,6 +23,18 @@ public class Aluno {
         this.nome = nome;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     @Override public boolean equals(Object o) {
         Aluno aluno = (Aluno)o;
         return matricula.equals(aluno.matricula);
