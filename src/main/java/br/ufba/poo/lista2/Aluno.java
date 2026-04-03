@@ -23,7 +23,7 @@ public class Aluno {
         this.nome = nome;
     }
 
-    @Override public equals(Object o) {
+    @Override public boolean equals(Object o) {
         Aluno aluno = (Aluno)o;
         return matricula.equals(aluno.matricula);
     }
